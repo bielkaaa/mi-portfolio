@@ -1,0 +1,40 @@
+.cuadrodetitulo {
+    background: red;
+    width: 300px;
+    height: 200px;
+}
+
+.opcion1 {
+    width: 20px;
+    height: ;
+}
+
+.opcion2{
+    width: 20px;
+    height: ;
+    position: relative;
+    top: -35px;
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+}
+
+.fila2 {
+    display: flex;
+    align-items: center;
+}
+
+.opcion{
+    position: relative;
+    top: -35px;
+}
+h2 {
+    color: chartreuse;
+    font-family:'Arial Narrow';
+    font-size: 30px;
+}
+input {
+    width: 90%;
+}
