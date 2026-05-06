@@ -1,0 +1,35 @@
+.formulario {
+    background: black;
+    padding: 20px;
+    width: 40%;
+}
+
+.formulario_input {
+    padding: 20px;
+    background: blue;
+    color: white;
+    width: 90%;
+    font-size: 25px;
+    border-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    margin: 20px;
+}
+
+.boton-enviar { 
+    width: 50%;
+    margin: 50px;
+}
+.segundo-div {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 25%;
+}
+.primer-div{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 27%;
+    top: 170px;
+}
