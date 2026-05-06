@@ -1,24 +1,32 @@
 .formulario {
-    background: black;
-    padding: 20px;
-    width: 40%;
+    background: #1c1c1c;
+    padding: 40px;
+    width: 500px;
+    border: 5px solid white;
+    padding: 40px;
+    border-radius: 20px;
 }
 
 .formulario_input {
-    padding: 20px;
-    background: blue;
+    padding: 18px;
+    background: cadetblue;
     color: white;
     width: 90%;
     font-size: 25px;
     border-color: white;
-    border-radius: 10px;
+    border-radius: 12px;
     border-width: 3px;
-    margin: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    border: none;
 }
 
 .boton-enviar { 
-    width: 50%;
+    width: 40%;
     margin: 50px;
+    border: none;
+    position: relative;
+    right: 8%;
 }
 .segundo-div {
     display: flex;
@@ -28,8 +36,24 @@
 }
 .primer-div{
     display: flex;
+    justify-content: center;
     align-items: center;
-    position: relative;
-    left: 27%;
-    top: 170px;
+    margin-top: 130px;
+}
+body {
+    background: #111;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.tercerdiv {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px;
 }
